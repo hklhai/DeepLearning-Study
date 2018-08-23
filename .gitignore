@@ -1,0 +1,8 @@
+venv/
+.idea/
+checkpoint
+poetry.*
+DCGAN/checkpoint/*
+DCGAN/data/*
+DCGAN/logs/*
+DCGAN/samples/*
