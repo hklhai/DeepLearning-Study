@@ -3,9 +3,13 @@ import os
 
 import numpy as np
 import tensorflow as tf
+import sys
+sys.path.append(os.path.dirname(os.getcwd()))
 
 from DCGAN.model import DCGAN
 from DCGAN.utils import pp, visualize
+
+
 
 flags = tf.app.flags
 flags.DEFINE_integer("epoch", 25, "Epoch to train [25]")

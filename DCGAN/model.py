@@ -4,7 +4,8 @@ from __future__ import division
 import os
 import time
 from glob import glob
-
+import sys
+sys.path.append(os.path.dirname(os.getcwd()))
 from DCGAN.ops import *
 from DCGAN.utils import *
 
